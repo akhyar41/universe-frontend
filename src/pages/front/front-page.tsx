@@ -38,7 +38,7 @@ export function FrontPage() {
           <h3 className="text-lg font-semibold mb-2">
             Daftar Tugas
           </h3>
-          <ol className="list-decimal px-4 space-y-2">
+          <ol className="list-decimal px-4 tabular-nums tracking-tight">
             <li className="p-0">
               <Link to="/"
                     className="text-blue-500">
@@ -58,6 +58,29 @@ export function FrontPage() {
                   <Link to="/auth/registration"
                         className="text-blue-500">
                     Registrasi
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="p-0">
+              <Link to="/task/31"
+                    className="text-blue-500">
+                Tugas 3.1
+              </Link>
+            </li>
+            <li className="p-0">
+              Tugas 4
+              <ul className="px-4 list-disc">
+                <li>
+                  <Link to="/task/41"
+                        className="text-blue-500">
+                    4.1
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/task/42"
+                        className="text-blue-500">
+                    4.2
                   </Link>
                 </li>
               </ul>
