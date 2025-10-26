@@ -1,0 +1,22 @@
+services:
+
+  frontend:
+
+    image: nginx
+    volumes:
+      - "./conf:/etc/nginx/conf.d"
+      - "./data:/usr/share/html"
+    expose:
+      - "8083:80"
+    deploy:
+      mode: replicated
+      replicas: 1
+      update_config:
+        order: start-first
+        parallelism: 1
+        delay: 30s
+      resources:
+        reservations:
+          memory: 128M
+        limits:
+          memory: 128M

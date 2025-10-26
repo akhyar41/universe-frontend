@@ -1,0 +1,16 @@
+.dockerignore
+.git/
+.idea/
+.vscode/
+.github/
+
+.editorconfig
+.gitignore
+.tailwindorder
+
+node_modules/
+
+README.*
+
+docker-compose.*
+Dockerfile
