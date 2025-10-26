@@ -72,7 +72,7 @@ export function RegistrationPage() {
             <form action="#"
                   onSubmit={form.handleSubmit(formHandle)}
                   autoComplete="off">
-              <Card className="w-[300px] shadow-none">
+              <Card className="shadow-none border-0 md:border w-[340px]">
                 <CardHeader>
                   <CardTitle>Registrasi Akun</CardTitle>
                   <CardDescription className="leading-none">
