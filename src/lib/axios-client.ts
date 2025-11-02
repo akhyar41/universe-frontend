@@ -1,8 +1,8 @@
-import { APP_API_URL, APP_VERSION } from "@/env"
+import { APP_URL, APP_VERSION } from "@/env"
 import axios from "axios"
 
 const httpClient = axios.create({
-  baseURL: APP_API_URL,
+  baseURL: APP_URL,
   headers: {
     "accept": "application/json",
     "app-version": APP_VERSION,

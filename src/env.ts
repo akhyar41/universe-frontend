@@ -12,7 +12,3 @@ export const APP_DEBUG = import.meta.env.APP_DEBUG
 export const APP_TIMEZONE = import.meta.env.APP_TIMEZONE
 
 export const APP_URL = import.meta.env.APP_URL
-export const APP_GUI_URL = import.meta.env.APP_GUI_URL
-export const APP_API_URL = import.meta.env.APP_API_URL
-
-export const ASSET_URL = import.meta.env.ASSET_URL
