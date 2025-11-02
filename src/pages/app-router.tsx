@@ -6,6 +6,7 @@ import { FrontPage } from "@/pages/front/front-page"
 import { Task31Page } from "@/pages/task-3/task-31-page"
 import { Task41Page } from "@/pages/task-4/task-41-page"
 import { Task42Page } from "@/pages/task-4/task-42-page"
+import { Task51Page } from "@/pages/task-5/task-51-page"
 import { Route, Routes } from "react-router-dom"
 
 
@@ -23,6 +24,7 @@ export const AppRouter = () => {
           <Route path="31" element={<Task31Page/>}/>
           <Route path="41" element={<Task41Page/>}/>
           <Route path="42" element={<Task42Page/>}/>
+          <Route path="51" element={<Task51Page/>}/>
         </Route>
         <Route path="*" element={<Error404Page/>}/>
       </Routes>

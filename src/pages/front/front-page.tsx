@@ -85,6 +85,12 @@ export function FrontPage() {
                 </li>
               </ul>
             </li>
+            <li className="p-0">
+              <Link to="/task/51"
+                    className="text-blue-500">
+                Tugas 5 (Flexbox)
+              </Link>
+            </li>
           </ol>
         </div>
       </div>

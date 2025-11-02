@@ -1,0 +1,50 @@
+{
+    "foods": [
+        {
+            "name": "Nasi Telur",
+            "price": 13000
+        },
+        {
+            "name": "Nasi Pecel",
+            "price": 15000
+        },
+        {
+            "name": "Nasi Goreng",
+            "price": 18000
+        },
+        {
+            "name": "Ketoprak",
+            "price": 18000
+        },
+        {
+            "name": "Nasi Rendang",
+            "price": 25000
+        },
+        {
+            "name": "Nasi Kikil",
+            "price": 29000
+        },
+        {
+            "name": "Sop Iga",
+            "price": 45000
+        }
+    ],
+    "beverages": [
+        {
+            "name": "Jus Melon",
+            "price": 15000
+        },
+        {
+            "name": "Jus Jambu",
+            "price": 15000
+        },
+        {
+            "name": "Jus Alpukat",
+            "price": 20000
+        },
+        {
+            "name": "Jus Jeruk Sunkis",
+            "price": 20000
+        }
+    ]
+}
